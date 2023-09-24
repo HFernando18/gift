@@ -1,0 +1,145 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff4e3; /* Color de fondo suave */
+}
+
+header {
+  background-image: url(../Img/head2.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Lobster', cursive;
+  -webkit-text-stroke: #333 0.5px ;
+}
+
+h1 {
+  color: white;
+  font-size: 50px
+}
+
+main {
+  text-align: center;
+  padding: 20px;
+}
+
+.mensaje {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  font-size: 18px; /* Tamaño del texto del mensaje */
+  color: #333; /* Color del texto del mensaje */
+}
+
+button {
+  background-color: #ffac33;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ffd700;
+}
+
+.imagen-girasol img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto; 
+  margin-bottom: 18px;
+}
+
+.imagen-gift img {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+/* Estilos del pie de página con estrellas (girasoles) */
+footer {
+  text-align: center;
+  background-color: #ffd700;
+  padding: 25px 0;
+  background-image: url(../Img/head2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  
+}
+
+.dedicatoria {
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+  color: #fff;
+  -webkit-text-stroke: #333 0.4px;
+  background-color: rgba(0, 0, 0, 0.393);
+  padding: 1px 10px;
+  border-radius: 10px;
+  width: 30%;
+}
+#frase {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+#txtmsj{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 120%;
+}
+
+.box {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 82%;
+  padding: 20px;
+  border: 3px solid yellow;
+  border-radius: 20px;
+  width: 51%;
+  margin-bottom: 25px;
+}
+.b1{
+  font-size: 2vw;
+  background-color: #ffd90048;
+  text-align: center;
+  -webkit-text-stroke: 0.8px #333;
+  border-radius: 12px;
+  max-width: 100%;
+  padding: 20px;
+  margin-right: 20px;
+}
+.b2{
+  border-radius: 12px;
+  width: 34%;
+  height: 34%;
+  max-width: 100%;
+  padding: 20px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  background-color: rgba(23, 29, 36, 0.33);
+}
+.b1 h1{
+  font-size: 3.5vw;
+}
+.b2 img{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
