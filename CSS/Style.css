@@ -64,7 +64,8 @@ button:hover {
 .imagen-gift img {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  
+  width: 32%;
+  height: auto;
 }
 
 /* Estilos del pie de página con estrellas (girasoles) */
@@ -128,7 +129,7 @@ footer {
 .b2{
   border-radius: 12px;
   width: 34%;
-  height: 34%;
+  height: auto;
   max-width: 100%;
   padding: 20px;
   margin-left: 15px;
@@ -139,7 +140,7 @@ footer {
   font-size: 3.5vw;
 }
 .b2 img{
-  width: 100%;
+  width: 500px;
   height: auto;
   max-width: 100%;
 }
