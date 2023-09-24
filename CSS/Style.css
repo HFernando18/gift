@@ -113,7 +113,7 @@ footer {
   padding: 20px;
   border: 3px solid yellow;
   border-radius: 20px;
-  width: 51%;
+  max-width: 100%;
   margin-bottom: 25px;
 }
 .b1{
@@ -131,7 +131,7 @@ footer {
   width: 34%;
   height: auto;
   max-width: 100%;
-  padding: 20px;
+  padding: 14px;
   margin-left: 15px;
   margin-bottom: 20px;
   background-color: rgba(23, 29, 36, 0.33);
@@ -140,7 +140,6 @@ footer {
   font-size: 3.5vw;
 }
 .b2 img{
-  width: 500px;
   height: auto;
   max-width: 100%;
 }
